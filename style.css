@@ -1,16 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
 body {
-    font-family: sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Garamond', serif;
+    line-height: 1.8;
+    margin: 0;
+    background-color: #f0e6d2; /* 砂のような色 */
+    color: #4b3832; /* 暗い土の色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 40px;
+    border: 10px solid #6d4c41; /* 岩のような枠 */
+    background-color: #fff8e1; /* 明るい砂色 */
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
 h1 {
-    text-align: center;
-    color: #005a9c;
+    font-family: 'Rampart One', cursive;
+    font-size: 4rem;
+    color: #2e7d32; /* 深い緑 */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
 }
 
 p {
-    text-align: center;
+    font-size: 1.2rem;
+    color: #5d4037; /* 茶色 */
 }
