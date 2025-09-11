@@ -6,13 +6,12 @@ body {
     margin: 0;
     background-color: #f0e6d2; /* 砂のような色 */
     color: #4b3832; /* 暗い土の色 */
-    padding: 40px 100px;
     text-align: center;
 }
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 40px auto;
     padding: 40px;
     border: 10px solid #6d4c41; /* 岩のような枠 */
     background-color: #fff8e1; /* 明るい砂色 */
