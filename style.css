@@ -116,13 +116,15 @@ img {
 
 .leaf {
     position: fixed;
-    top: -20px; /* Start above the viewport */
-    width: 20px;
-    height: 20px;
-    background-color: #2e7d32; /* Greenish color for a leaf */
-    border-radius: 50%; /* Make it circular for simplicity */
-    animation: fall linear forwards;
-    z-index: -1; /* Behind other content */
+    top: -20px;
+    width: 25px; /* Slightly wider */
+    height: 15px; /* Shorter */
+    background: linear-gradient(to bottom right, #2e7d32, #4CAF50); /* Green gradient */
+    border-radius: 0 50% 50% 50%; /* Leaf-like shape */
+    transform: rotate(45deg); /* Initial rotation */
+    animation: fall linear forwards, sway ease-in-out infinite; /* Add sway animation */
+    z-index: -1;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3); /* Subtle shadow */
 }
 
 @keyframes fall {
@@ -147,4 +149,10 @@ img {
     0% { transform: scale(1); }
     50% { transform: scale(1.02); }
     100% { transform: scale(1); }
+}
+
+@keyframes sway {
+    0% { transform: translateX(0) rotate(45deg); }
+    50% { transform: translateX(10px) rotate(50deg); }
+    100% { transform: translateX(0) rotate(45deg); }
 }
