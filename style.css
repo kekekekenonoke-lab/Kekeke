@@ -42,3 +42,35 @@ img {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
+.ecology-info {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.ecology-info h2 {
+    font-family: 'Rampart One', cursive;
+    font-size: 2.5rem;
+    color: #2e7d32;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ecology-info h3 {
+    font-family: 'Garamond', serif;
+    font-size: 1.8rem;
+    color: #5d4037;
+    border-bottom: 2px solid #6d4c41;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.ecology-info ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.ecology-info li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
