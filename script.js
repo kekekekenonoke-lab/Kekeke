@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Randomize animation duration
         const duration = Math.random() * 5 + 5; // 5 to 10 seconds
         leaf.style.animationDuration = duration + 's';
-        leaf.style.animationDelay = Math.random() * 2 + 's'; // Random delay
 
         document.body.appendChild(leaf);
 
@@ -33,6 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Create a new leaf every 0.5 to 2 seconds
-    setInterval(createLeaf, Math.random() * 1500 + 500);
+    // Create a new leaf every 0.5 seconds
+    setInterval(createLeaf, 500);
 });
