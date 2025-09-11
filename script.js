@@ -33,5 +33,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Create a new leaf every 0.5 seconds
-    setInterval(createLeaf, 500);
+    setInterval(createLeaf, 200);
 });
