@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#home">ホーム</a></li>
+            <li><a href="#t-rex">ティラノサウルス</a></li>
+            <li><a href="#triceratops">トリケラトプス</a></li>
+            <li><a href="#velociraptor">ヴェロキラプトル</a></li>
+            <li><a href="#brachiosaurus">ブラキオサウルス</a></li>
+        </ul>
+    </nav>
     <div class="container">
-        <h1>ガオー！</h1>
+        <h1 id="home">ガオー！</h1>
         <p>ここはジュラ紀のウェブサイトだ！</p>
-        <img src="IMG_0115.webp" alt="新しいティラノサウルスの画像">
+        <img src="IMG_0115.webp" alt="新しいティラノサウルス画像">
         <img src="IMG_0113.jpeg" alt="アップロードされた画像">
-        <div class="ecology-info">
+        <div id="t-rex" class="ecology-info">
             <h2>ティラノサウルスの生態</h2>
             <h3>時代と生息地</h3>
             <ul>
@@ -34,7 +43,67 @@
                 <li><strong>狩りの方法:</strong> 待ち伏せ型のハンターだったという説が有力</li>
             </ul>
         </div>
-    </div>
+        <div id="triceratops" class="ecology-info">
+            <h2>トリケラトプスの生態</h2>
+            <h3>時代と生息地</h3>
+            <ul>
+                <li><strong>時代:</strong> 約6,900万年前～約6,600万年前（白亜紀後期）</li>
+                <li><strong>場所:</strong> 現在の北米大陸</li>
+            </ul>
+
+            <h3>体格と特徴</h3>
+            <ul>
+                <li><strong>大きさ:</strong> 全長約9メートル、体重6～8トン</li>
+                <li><strong>特徴:</strong> 3本の角と大きな骨質のフリル</li>
+            </ul>
+
+            <h3>食性と防御</h3>
+            <ul>
+                <li><strong>食性:</strong> 植物食恐竜（ヤシ、ソテツ、シダなど）</li>
+                <li><strong>防御:</strong> 角とフリルで捕食者から身を守った</li>
+                </ul>
+            </div>
+            <div id="velociraptor" class="ecology-info">
+                <h2>ヴェロキラプトルの生態</h2>
+                <h3>時代と生息地</h3>
+                <ul>
+                    <li><strong>時代:</strong> 約7,500万年前～約7,100万年前（白亜紀後期）</li>
+                    <li><strong>場所:</strong> 現在のモンゴル、中国（ゴビ砂漠）</li>
+                </ul>
+
+                <h3>体格と特徴</h3>
+                <ul>
+                    <li><strong>大きさ:</strong> 体長約1.5～2メートル、体重15～20キログラム</li>
+                    <li><strong>特徴:</strong> 後ろ足の鎌状の鉤爪（シックルクロー）、羽毛を持っていた</li>
+                </ul>
+
+                <h3>食性と狩り</h3>
+                <ul>
+                    <li><strong>食性:</strong> 小型肉食恐竜（小型草食恐竜、爬虫類など）</li>
+                    <li><strong>狩りの方法:</strong> 俊敏な捕食者、夜行性の可能性も</li>
+                </ul>
+            </div>
+            <div id="brachiosaurus" class="ecology-info">
+                <h2>ブラキオサウルスの生態</h2>
+                <h3>時代と生息地</h3>
+                <ul>
+                    <li><strong>時代:</strong> 約1億6,100万年前～約1億4,600万年前（ジュラ紀後期）</li>
+                    <li><strong>場所:</strong> 北米、アフリカ</li>
+                </ul>
+
+                <h3>体格と特徴</h3>
+                <ul>
+                    <li><strong>大きさ:</strong> 全長約25メートル、体重40～70トン</li>
+                    <li><strong>特徴:</strong> 前肢が後肢より長く、キリンのように肩が高い</li>
+                </ul>
+
+                <h3>食性と行動</h3>
+                <ul>
+                    <li><strong>食性:</strong> 植物食恐竜（高い位置の葉や新芽）</li>
+                    <li><strong>行動:</strong> 群れで生活し、高い位置から捕食者を警戒</li>
+                </ul>
+            </div>
+        </div>
     <script src="script.js" defer></script>
 </body>
 </html>
