@@ -72,6 +72,23 @@ img {
     margin-bottom: 10px;
 }
 
+.leaf {
+    position: fixed;
+    top: -20px; /* Start above the viewport */
+    width: 15px;
+    height: 15px;
+    background-color: #8B4513; /* Brownish color for a leaf */
+    border-radius: 50%; /* Make it circular for simplicity */
+    animation: fall linear forwards;
+    z-index: -1; /* Behind other content */
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh); /* Fall to the bottom of the viewport */
+    }
+}
+
 @keyframes shake {
     0% { transform: translateX(0); }
     25% { transform: translateX(-5px); }
