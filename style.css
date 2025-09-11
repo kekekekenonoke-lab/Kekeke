@@ -34,3 +34,11 @@ p {
     font-size: 1.2rem;
     color: #5d4037; /* 茶色 */
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
